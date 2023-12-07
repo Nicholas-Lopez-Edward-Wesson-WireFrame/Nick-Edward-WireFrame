@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    text-align: left;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-title {
+    max-width: 50%;
+    font-size: 25px;
+}
+nav {
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: end;
+    gap: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
