@@ -86,3 +86,47 @@ footer {
 }
 
 
+@media screen and (max-width: 500px) {
+    body {
+        overflow-x: hidden;
+    }
+    .page-title {
+        max-width: 100%;
+        font-size: 30px;
+        margin-left: 0;
+        padding-right: 0;
+    }
+
+    nav, .nav-links, .entire-section, .main, .sub-section, footer, .social-media-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .nav-links, .social-media-list {
+        justify-content: center;
+    }
+
+    .header-img, .entire-section, .main, .sub-section, footer {
+        padding: 10px;
+    }
+
+    .main, .sub-section {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .all-rights-reserved {
+        padding-left: 0;
+    }
+    .nav-links li {
+        padding: 5px;
+        margin: 5px;
+        width: 80%;
+        text-align: center;
+        background-color: lightblue;
+    }
+}
