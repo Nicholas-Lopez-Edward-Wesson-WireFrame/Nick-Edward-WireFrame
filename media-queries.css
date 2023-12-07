@@ -63,7 +63,26 @@ ul {
 footer {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    margin-top: 98px;
-    padding-left: 350px;
+    justify-content: space-between ;
+    margin: 0;
 }
+
+.social-media-list {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: flex-end;
+    align-items: end;
+    gap: 10px;
+    padding-right: 20px;
+}
+
+.social-media-list li a i {
+    font-size: 20px ;
+}
+
+.all-rights-reserved {
+    padding-left: 20px;
+}
+
+
