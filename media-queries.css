@@ -11,18 +11,24 @@ body {
 
 .page-title {
     max-width: 50%;
-    font-size: 25px;
+    font-size: 40px;
+    margin-left: auto;
+    padding-right: 10px;
+
 }
 nav {
     display: flex;
+    justify-content: space-between;
+    gap: 50px;
 }
 
 .nav-links {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: auto;
     justify-content: flex-end;
     align-items: end;
+    margin: auto;
     gap: 10px;
 }
 
@@ -36,9 +42,28 @@ ul {
     align-items: center;
 }
 
+.entire-section {
+    display: flex;
+    padding: 50px 200px;
+    justify-content: center;
+}
+
 .main {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
+    margin-right: 30px;
+}
+.sub-section {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 98px;
+    padding-left: 350px;
+}
